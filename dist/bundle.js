@@ -1,0 +1,1 @@
+(()=>{var e={252:e=>{"use strict";e.exports=require("express")}},s={};const r=function r(o){var t=s[o];if(void 0!==t)return t.exports;var n=s[o]={exports:{}};return e[o](n,n.exports,r),n.exports}(252)(),o=process.env.PORT||3e3;r.get("/",((e,s)=>{s.send("Hello, this is a simple Node.js app!")})),r.listen(o,(()=>{console.log(`Server is running on http://localhost:${o}`)}))})();
